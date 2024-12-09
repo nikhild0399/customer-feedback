@@ -1,0 +1,130 @@
+/* Set background color for the entire page */
+body {
+    background-color: #f5f5f5;  /* Light gray background for the whole page */
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Apply the font globally */
+  }
+  
+  /* General Container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+  }
+  
+  .formWrapper {
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Heading Styles */
+  .heading {
+    font-size: 2.2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .subHeading {
+    font-size: 1.6rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  /* Input Fields */
+  .input {
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #fd746c;
+  }
+  
+  /* Button Styles */
+  .submitBtn {
+    background-color: #fd746c;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .submitBtn:hover {
+    background-color: #e94e77;
+  }
+  
+  .googleBtn {
+    background-color: #db4437;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .googleBtn:hover {
+    background-color: #c1351d;
+  }
+  
+  .googleBtn span {
+    margin-left: 10px;
+  }
+  
+  /* Or Divider */
+  .orContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .orContainer .text {
+    margin: 0 5px;
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
+  /* Text Links */
+  .text {
+    color: #7f8c8d;
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+  
+  .text a {
+    color: #fd746c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .text a:hover {
+    text-decoration: underline;
+  }
+  
